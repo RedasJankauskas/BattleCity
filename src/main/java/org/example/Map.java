@@ -19,7 +19,7 @@ public class Map {
     public Map(GamePanel gamePanel) {
         this.gamePanel = gamePanel;
         walls = new Wall[gamePanel.maxScreenRow][gamePanel.maxScreenCol];
-        enemies = new Enemy[gamePanel.maxScreenRow][gamePanel.maxScreenCol]; // initialize enemy grid
+        enemies = new Enemy[gamePanel.maxScreenRow][gamePanel.maxScreenCol];
         loadImages();
         loadMapFromFile();
     }
